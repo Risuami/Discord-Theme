@@ -1,5 +1,5 @@
 /**
- * @name Aqua
+ * @name Aqua123
  * @author ClearVision Team
  * @version 6.3.0
  * @description Highly customizable and beautiful theme for BetterDiscord.
@@ -10,11 +10,7 @@
 */
 
 @import url('https://clearvision.github.io/ClearVision-v6/main.css');
-@font-face {
-  font-family: "Helvetica";
-  src: url("https://fonts.gstatic.com/s/notosansjp/v42/-F6pfjtqLzI2JPCgQBnw7HFQaioa3Xdg.woff2") format('woff2');
-  unicode-range: U+4E00–U+9FBF,U+3040–U+309F,U+30A0–U+30FF;
- }
+@import url('https://nyri4.github.io/Discolored/main.css');
 
 :root {
   --main-color: #BF94E4;
@@ -22,13 +18,19 @@
   --success-color: #43b581;
   --danger-color: #982929;
   --url-color: var(--main-color);
-  --background-image: url('https://i.imgur.com/waM20M7.jpg');
+  --@font-face {
+  font-family: "Helvetica";
+  src: url("https://fonts.gstatic.com/s/notosansjp/v42/-F6pfjtqLzI2JPCgQBnw7HFQaioa3Xdg.woff2") format('woff2');
+  unicode-range: U+4E00–U+9FBF,U+3040–U+309F,U+30A0–U+30FF;
+ }
+}
+  --background-image: url('https://i.imgur.com/mynDqct.jpg');
   --background-shading: 100%;
   --background-position: center;
   --background-size: cover;
   --background-repeat: no-repeat;
   --background-attachment: fixed;
-  --background-brightness: 74%;
+  --background-brightness: 100%;
   --background-contrast: 100%;
   --background-saturation: 100%;
   --background-grayscale: 0%;
@@ -46,7 +48,7 @@
   --user-popout-grayscale: 0%;
   --user-popout-invert: 0%;
   --user-popout-blur: 3px;
-  --user-modal-image: url('https://clearvision.github.io/images/sapphire.jpg');
+  --user-modal-image: url('https://i.imgur.com/llmMt0C.jpg');
   --user-modal-position: center;
   --user-modal-size: cover;
   --user-modal-repeat: no-repeat;
@@ -68,7 +70,7 @@
   --dnd-color: #982929;
   --streaming-color: #593695;
   --offline-color: #808080;
-  --main-font: Whitney;
+  --main-font: gg sans;
   --code-font: Consolas;
   --channels-width: 220px;
   --members-width: 240px;
